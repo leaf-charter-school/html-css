@@ -1,0 +1,116 @@
+/* div {
+  background-color: red;
+  margin-left: 35px;
+} */
+
+p.big {
+  font-size: 4em;
+}
+
+p.little{
+  font-size: .5em;
+}
+
+h1 {
+  text-align: center;
+  color: pink;
+}
+
+
+.div1{
+  height: 100px;
+  width: 100px;
+  float: right;
+  background-color: blue;
+}
+
+.div2{
+  height: 100px;
+  width: 100px;
+  float: left;
+  background-color: purple;
+}
+
+img {
+  margin: 0 30%;
+}
+
+
+nav {
+  background-color: grey;
+  padding: 10px 30% 10px 30%;
+  display: flex;
+  justify-content: space-between;
+}
+
+
+body {
+  margin: 0;
+}
+
+.about-box {
+  display: flex;
+  border: 2px solid black;
+  width: 80%;
+  margin-left: 10%;
+}
+
+
+div.left-side {
+  width: 50%;
+  border: 2px solid black;
+}
+
+div.right-side {
+  width: 50%;
+  border: 2px solid black;
+}
+
+
+
+.about-photo {
+  display: block;
+  margin: 0 auto;
+}
+
+.about-title {
+  text-align: center;
+}
+
+.about-label {
+  text-align: center;
+}
+
+
+
+.products-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  background-image: url("doggies.gif");
+  background-repeat:no-repeat;
+  background-size:cover;
+
+
+}
+
+.product {
+  width: 400px;
+  border: 2px solid blue;
+  margin: 10px 5px 10px 20px;
+}
+
+
+
+.product-photo {
+  display: block;
+  margin: auto;
+}
+
+.product-title {
+  text-align: center;
+}
+
+.product-text {
+  text-align: center;
+}
